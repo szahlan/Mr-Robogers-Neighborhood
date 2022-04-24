@@ -17,7 +17,7 @@ You can follow [this link](https://szahlan.github.io/Mr-Robogers-Neighborhood/) 
 You can also clone this repository, access the project folder on your computer and finally open the index.html file in your browser.
 
 ## Known Bugs
-This page currenlty has no known bugs.
+This page currently has no known bugs.
 
 ## License 
 MIT 
