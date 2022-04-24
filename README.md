@@ -24,3 +24,8 @@ Test: "It should return 'Beep!' for any numbers that contain 1, unless they also
 Code: 
 beepBoop(14);
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"]
+
+Test "It should return output with numbers and proper string replacements separated by commas, rather than returning an array." 
+Code:
+beepBoop(14); 
+Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"
