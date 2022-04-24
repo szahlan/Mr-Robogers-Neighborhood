@@ -1,10 +1,9 @@
 function beepBoop(userInput) {
-  const userInputNumber = parseInt(userInput);
   const orderedNumbers = [];
-  for (i = 0; i <= userInputNumber; i++) {
-    iString = i.toString();
-    if (iString.includes("1") || iString.includes("2") || iString.includes("3")) {
-      orderedNumbers.push(true);
+  for (i = 0; i <= userInput; i++) {
+    numberString = i.toString();
+    if (numberString.includes("3")) {
+      orderedNumbers.push("Won't you be my Neighbor?");
     } else {
         orderedNumbers.push(i);
     }
