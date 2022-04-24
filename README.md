@@ -9,3 +9,8 @@ Test: "It should return true if any of the numbers in the array contain 1, 2, or
 Code: 
 beepBoop(5);
 Expected Output: [0, true, true, true, 4, 5]
+
+Test: "It should return "Won't you be my neighbor?" if any of the numbers in the array contain 3."
+Code:
+beepBoop(5);
+Expected Output: [0, 1, 2, "Won't you be my neighbor?", 4, 5]
