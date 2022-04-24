@@ -1,5 +1,8 @@
 function beepBoop(userInput) {
   const orderedNumbers = [];
+  if (userInput <= 0) {
+    return "This application is only for numbers that are greater than 0! Please enter a different number."
+  }
   for (i = 0; i <= userInput; i++) {
     numberString = i.toString();
     if (numberString.includes("3")) {
