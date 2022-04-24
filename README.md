@@ -29,3 +29,7 @@ Test "It should return output with numbers and proper string replacements separa
 Code:
 beepBoop(14); 
 Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"
+
+Test: "It should alert user to enter a numbe bigger than 0 if they enter a negative number or a 0"
+Code: beepBoop(-5);
+Expected Output: "This application is only for numbers higher than 0! Please enter a different number."
