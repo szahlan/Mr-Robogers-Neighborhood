@@ -3,10 +3,10 @@
 function beepBoop(userInput) {
   const orderedNumbers = [];
   let output;
-  if (userInput = " ") {
-    output = "Please enter a number!"
+  if (userInput === "") {
+    output = "Please enter a number!";
   } else if (userInput <= 0) {
-      output = "This application is for numbers that are greater than 0 only! Please enter a different number."
+      output = "This application is for numbers that are greater than 0 only! Please enter a different number.";
   } else {
       for (i = 0; i <= userInput; i++) {
         numberString = i.toString();
