@@ -1,7 +1,35 @@
+# Mr. Roboger's Neighborhood
+By **Sana Zahlan** 
+
+## Technologies Used 
+* HTML 
+* CSS
+* Bootstrap 
+* JavaScript 
+* jQuery
+
+## Description 
+This application takes a number from the user and uses arrays and a for loop to return a range of numbers from 0 to the inputted number. The resulting range also includes strings that replace numbers conaining 1, 2, or 3. 
+
+## Setup & installation
+You can follow [this link](https://szahlan.github.io/Mr-Robogers-Neighborhood/) to view the page in your browser!
+
+You can also clone this repository, access the project folder on your computer and finally open the index.html file in your browser.
+
+## Known Bugs
+This page currenlty has no known bugs.
+
+## License 
+MIT 
+
+Copyright (c) 2022 Sana Zahlan 
+
+## Tests
+
 Describe: beepBoop()
 
 Test: "It should return an array that starts with 0 and ends with the user input."
-Code:;
+Code:
 beepboop(3);
 Expected Output: [0, 1, 2, 3]
 
