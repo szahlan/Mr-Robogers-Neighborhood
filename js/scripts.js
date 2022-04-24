@@ -1,17 +1,19 @@
+//Business Logic
+
 function beepBoop(userInput) {
   const orderedNumbers = [];
   let output;
   if (userInput <= 0) {
-    output = "This application is only for numbers that are greater than 0! Please enter a different number."
+    output = "This application is for numbers that are greater than 0 only! Please enter a different number."
   } else {
     for (i = 0; i <= userInput; i++) {
       numberString = i.toString();
       if (numberString.includes("3")) {
-        orderedNumbers.push("Won't you be my Neighbor?");
+        orderedNumbers.push("'Won't you be my Neighbor?'");
       } else if (numberString.includes("2")) {
-          orderedNumbers.push("Boop!");
+          orderedNumbers.push("'Boop!'");
       } else if (numberString.includes("1")) {
-          orderedNumbers.push("Beep!");
+          orderedNumbers.push("'Beep!'");
       } else {
           orderedNumbers.push(i);
       }
@@ -20,3 +22,14 @@ function beepBoop(userInput) {
   }
   return output;
 }
+
+// User Interface Logic
+
+$(document).ready(function() {
+  $("#userForm").submit(function(event) {
+    event.preventDefault();
+    const number = $("#number").val();
+    const output = beepBoop(number);
+    $("#result").text(output);
+  });
+});
