@@ -19,3 +19,8 @@ Test: "It should return 'Boop!' for numbers that contain 2, unless they also con
 Code:
 beepBoop(23);
 Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, "Boop!", "Won't you be my neighbor?", 14, 15, 16, 17, 18, 19, "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"]
+
+Test: "It should return 'Beep!' for any numbers that contain 1, unless they also contain 2 or 3."
+Code: 
+beepBoop(14);
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", 14]
