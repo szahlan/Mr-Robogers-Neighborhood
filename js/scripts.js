@@ -9,7 +9,7 @@ function beepBoop(userInput) {
       output = "This application is for numbers that are greater than 0 only! Please enter a different number.";
   } else {
       for (i = 0; i <= userInput; i++) {
-        numberString = i.toString();
+        const numberString = i.toString();
         if (numberString.includes("3")) {
           orderedNumbers.push("'Won't you be my Neighbor?'");
         } else if (numberString.includes("2")) {
