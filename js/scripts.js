@@ -12,5 +12,6 @@ function beepBoop(userInput) {
         orderedNumbers.push(i);
     }
   }
-  return orderedNumbers;
+  const output = orderedNumbers.join(", ");
+  return output;
 }
